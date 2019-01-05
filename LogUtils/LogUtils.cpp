@@ -6,7 +6,7 @@
 
 int main()
 {
-	Logger log("kadin");
+	kadin::Logger log("kadin");
 	log.setFileName("sceneserver.log");
 	log.debug(" debug message");
 	log.fatal(" fatal message");

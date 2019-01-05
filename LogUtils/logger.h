@@ -11,6 +11,8 @@
 #ifndef linux
 #include <windows.h>
 #endif
+namespace kadin{
+
 class Logger
 {
 public:
@@ -56,3 +58,5 @@ private:
 	unsigned short _console_color = 0;
 #endif
 };
+
+}
