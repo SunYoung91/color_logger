@@ -33,3 +33,6 @@
 /LogUtils/Debug
 /LogUtils/x64
 /.vs
+*.log
+Debug/LogUtils.ilk
+Debug/LogUtils.pdb

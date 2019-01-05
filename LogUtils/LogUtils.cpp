@@ -12,9 +12,11 @@ int main()
 	log.fatal(" fatal message");
 	log.error(" error  message");
 	log.warn(" warning message");
-	log.trace("trace message");
-	log.info("info message");
+	log.trace(" trace message");
+	log.info(" info message");
+#ifndef linux
 	system("pause");
+#endif
 
 }
 
