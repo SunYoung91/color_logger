@@ -131,11 +131,11 @@ namespace kadin {
 
 		switch (level)
 		{
-		case LEVEL_DEBUG: color = "\033[3m["; break;
+		case LEVEL_DEBUG: color = "\033[36m["; break;
 		case LEVEL_INFO: color = "\033[0m["; break;
 		case LEVEL_TRACE: color = "\033[1;32m["; break;
-		case LEVEL_WARN: color = "\033[1:33m["; break;
-		case LEVEL_ERROR: color = "\033[1:31m["; break;
+		case LEVEL_WARN: color = "\033[1;33m["; break;
+		case LEVEL_ERROR: color = "\033[1;31m["; break;
 		case LEVEL_FATAL: color = "\033[1;33;41m["; break;
 		default:break;
 		}
