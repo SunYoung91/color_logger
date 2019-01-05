@@ -45,6 +45,7 @@ public:
 	void logva(const log_level level,const char * pattern,va_list vp);
 	void log(const log_level level,const char * pattern,...);
 	void setLevel(const log_level level);
+	void setName(const std::string& name);
 private:
 	std::mutex _write_mutex;
 	volatile log_level      _log_level;

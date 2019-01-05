@@ -79,6 +79,12 @@ namespace kadin {
 		else if ("all" == level) setLevel(LEVEL_ALL);
 	}
 
+	void Logger::setName(const std::string& name)
+	{
+		LOCK_GUARD();
+		_name = name;
+	}
+
 	void Logger::logva(const log_level level, const char * pattern, va_list vp)
 	{
 		char   szName[kMAX_PATH_LEN] = { 0 };
