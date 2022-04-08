@@ -30,9 +30,6 @@
 *.exe
 *.out
 *.app
-/LogUtils/Debug
-/LogUtils/x64
-/.vs
+/test/x64
+test/.vs
 *.log
-Debug/LogUtils.ilk
-Debug/LogUtils.pdb

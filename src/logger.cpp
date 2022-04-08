@@ -1,6 +1,6 @@
 ﻿#include <stdarg.h>
 #include <stdio.h>
-#include "logger.h"
+#include "../include/logger.h"
 #include <mutex>
 #include <time.h>
 #ifndef linux
